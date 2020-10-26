@@ -77,7 +77,7 @@ namespace WebApp
             lock (this)
             {
                 _accounts.Clear();
-                _internalIdCounter = 0;
+                _internalIdCounter = ++_internalIdCounter;
                 _accounts["alice"] = new Account
                 {
                     ExternalId = "alice",

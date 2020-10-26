@@ -283,4 +283,5 @@ ThirdParty/liquibase
 *.swp
 .dappfile.render*
 .dapp_secret_key
+.vs
 
