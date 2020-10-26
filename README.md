@@ -74,3 +74,5 @@ The `[Authorize]` attribute was modified to limit access only to users who have 
 ```csharp
 [Authorize(Roles = "Admin")]
 ```
+### Code
+To see the code you should switch to master branch.
